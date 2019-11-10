@@ -12,7 +12,7 @@ def BinarySearch(arr, k):
             return found
         else:
             if k < arr[mid]:
-                end = mid -1
+                end = mid - 1
             else:
                 first = mid + 1
 
